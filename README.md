@@ -59,8 +59,9 @@ Import the `Auth-CRUD-API.postman_collection.json` file (to be added) into Postm
 
 ## 📁 Repository Structure
 
+```
 .
-├─ src/                  Backend code
+├─ src/                 # Backend code
 │  ├─ config/           # Database connection
 │  ├─ controllers/      # Route logic
 │  ├─ middleware/       # Auth & error handlers
@@ -75,5 +76,4 @@ Import the `Auth-CRUD-API.postman_collection.json` file (to be added) into Postm
 ├─ .gitignore           # Files & folders to ignore in Git
 ├─ README.md            # This file
 └─ Auth-CRUD-API.postman_collection.json  # Postman export
-
-
+```
