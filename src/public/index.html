@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NotesLe</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Shared Header -->
+  <header class="site-header">
+    <div class="header-content container">
+      <div class="logo">NotesLe</div>
+      <nav id="site-nav" class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="login.html" class="nav-link btn">Login</a>
+        <a href="signup.html" class="nav-link btn">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero container">
+    <h1>Your Digital Notebook</h1>
+    <p class="tagline">Quickly jot down ideas, tasks, and notes—securely and access them anywhere.</p>
+    <button onclick="location.href='login.html'" class="btn">Get Started</button>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features container">
+    <h2>Features</h2>
+    <div class="feature-cards">
+      <div class="feature-card">
+        <h3>Secure Auth</h3>
+        <p>Signup and login with JWT and bcrypt‑powered password security.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Full CRUD</h3>
+        <p>Create, read, update, and delete your notes with ease.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Responsive UI</h3>
+        <p>Works on desktop and mobile designed for seamless productivity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works container">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step-card">
+        <span class="step-number">1</span>
+        <h4>Sign Up or Login</h4>
+        <p>Create your secure account to get started.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-number">2</span>
+        <h4>Add Your Notes</h4>
+        <p>Use the intuitive form to save your tasks and ideas.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-number">3</span>
+        <h4>Manage & Organize</h4>
+        <p>Edit or delete notes whenever you need.</p>
+      </div>
+    </div>
+  </section>
+
+   <!-- Shared Footer -->
+   <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 NotesLe</p>
+      <p>
+        <a href="https://github.com/yourrepo" class="footer-link">GitHub</a> |
+        <a href="https://www.linkedin.com/in/kaiwalya-joshi/" class="footer-link">Connect</a>
+      </p>
+    </div>
+  </footer>
+  
+
+  <script src="js/auth.js"></script>
+
+</body>
+</html>

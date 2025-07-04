@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up – NotesLe</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Shared Header -->
+  <header class="site-header">
+    <div class="header-content container">
+      <div class="logo">NotesLe</div>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="login.html" class="nav-link btn">Login</a>
+        <a href="signup.html" class="nav-link btn">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Signup Card -->
+  <main class="container">
+    <div class="form-card">
+      <h2>Create an Account</h2>
+      <form id="signup-form">
+        <div class="form-group">
+          <input type="text" id="name" name="name" required />
+          <label for="name">Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" required />
+          <label for="email">Email</label>
+        </div>
+        <div class="form-group">
+          <input type="password" id="password" name="password" required />
+          <label for="password">Password</label>
+        </div>
+        <button type="submit" class="btn form-btn">Sign Up</button>
+      </form>
+      <p class="form-footer">
+        Already have an account? <a href="login.html">Login here</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 NotesLe</p>
+      <p>
+        <a href="https://github.com/yourrepo" class="footer-link">GitHub</a> |
+        <a href="https://www.linkedin.com/in/kaiwalya-joshi/" class="footer-link">Connect</a>
+      </p>
+    </div>
+  </footer>
+  
+  <script src="js/auth.js"></script>
+</body>
+</html>

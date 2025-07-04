@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Profile – NotesLe</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+
+  <!-- Shared Header -->
+  <header class="site-header">
+    <div class="header-content container">
+      <div class="logo">NotesLe</div>
+      <nav id="site-nav" class="nav-links">
+        <a href="items.html" class="nav-link">My Items</a>
+        <button id="logout-btn" class="nav-link btn">Logout</button>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="container" style="flex: 1;">
+
+
+    <section class="main-content">
+      <h2>Your Profile</h2>
+      <p><strong>Name:</strong> <span id="name">Loading...</span></p>
+      <p><strong>Email:</strong> <span id="email">Loading...</span></p>
+    </section>
+  </main>
+
+    <!-- Shared Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2025 NotesLe</p>
+        <p>
+          <a href="https://github.com/yourrepo" class="footer-link">GitHub</a> |
+          <a href="https://www.linkedin.com/in/kaiwalya-joshi/" class="footer-link">Connect</a>
+        </p>
+      </div>
+    </footer>
+    
+  
+  <script src="js/profile.js"></script>
+  <script src="js/auth.js"></script>
+
+
+</body>
+</html>

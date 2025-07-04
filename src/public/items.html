@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Items – NotesLe</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Shared Header -->
+  <header class="site-header">
+    <div class="header-content container">
+      <div class="logo">NotesLe</div>
+      <nav id="site-nav" class="nav-links">
+        <a href="profile.html" class="nav-link">Profile</a>
+        <button id="logout-btn" class="nav-link btn">Logout</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Dashboard Layout -->
+  <div class="dashboard container">
+  
+    <!-- Main Content -->
+    <section class="main-content">
+      <h2>Your Notes</h2>
+
+      <!-- Add Item Form -->
+      <div class="form-card">
+        <form id="item-form">
+          <input type="text" name="title" placeholder="Title" required />
+          <textarea name="description" placeholder="Description" rows="2"></textarea>
+          <button type="submit" class="btn form-btn">Add</button>
+        </form>
+      </div>
+
+      <!-- Items List -->
+      <div id="item-list" class="items-list" style="margin-top: var(--spacing-3);"></div>
+    </section>
+  </div>
+
+    <!-- Shared Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2025 NotesLe</p>
+        <p>
+          <a href="https://github.com/yourrepo" class="footer-link">GitHub</a> |
+          <a href="https://www.linkedin.com/in/kaiwalya-joshi/" class="footer-link">Connect</a>
+        </p>
+      </div>
+    </footer>
+    
+  
+
+  <script src="js/items.js"></script>
+  <script src="js/auth.js"></script>
+
+
+
+</body>
+</html>
