@@ -77,3 +77,15 @@ Import the `Auth-CRUD-API.postman_collection.json` file (to be added) into Postm
 ├─ README.md            # This file
 └─ Auth-CRUD-API.postman_collection.json  # Postman export
 ```
+
+#### 🔁 Using `id` in Update and Delete Routes in Postman
+```
+> ⚠️ In the current collection, some requests like **Update Item** and **Delete Item** may include a sample hardcoded ID (e.g., `/api/items/660e9a6d...`).
+> In real use, you must replace the `id` part of the URL with an actual item ID returned by the **Get Items** request.
+>
+> **How to do it:**
+>
+> 1. First, run the **Get Items** request.
+> 2. Copy any `_id` field from the response.
+> 3. Replace the hardcoded ID in the URL of the **Update** or **Delete** request with the copied ID.
+---
